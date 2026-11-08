@@ -1,4 +1,4 @@
-# Superhuman Chrome Dino AI — Deep Reinforcement Learning (PPO) + Live Browser Bridge
+# Training an AI Model to Play Chrome Dino using Deep Reinforcement Learning (PPO) + Live Browser Bridge
 
 ![Learning Progression](dino_learning%20progress.gif)
 
