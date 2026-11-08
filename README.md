@@ -86,20 +86,5 @@ Open [`Chrome_Dino_Player_with_RL.ipynb`](Chrome_Dino_Player_with_RL.ipynb) in G
 
 ---
 
-## 📂 Repository Structure
-
-```text
-├── Chrome_Dino_Player_with_RL.ipynb   # Full RL training, custom Gym env & video rendering notebook
-├── play_chrome_dino.py                # Real-time Playwright bridge to play live in Chrome
-├── dino_1M_superhuman.zip             # Final 1,000,000-step Superhuman PPO model weights
-├── dino_super_checkpoints/            # Generational checkpoints (0k, 200k, 400k, 600k, 1M)
-├── dino_learning_curves.png           # High-res training reward & score progression plot
-├── dino_learning progress.gif         # Generational evolution GIF
-├── dino_ghost_royale.gif              # 50-Dino Ghost Battle Royale GIF
-└── *.mp4                              # Full HD rendered gameplay & progression videos
-```
-
----
-
 ## 📜 License
 Released under the MIT License. Feel free to fork, experiment, and benchmark your own RL agents!
