@@ -85,6 +85,29 @@ python play_chrome_dino.py
 Open [`Chrome_Dino_Player_with_RL.ipynb`](Chrome_Dino_Player_with_RL.ipynb) in Google Colab or Jupyter Notebook to train all 5 generational checkpoints and render the MP4/GIF visual reels.
 
 ---
+## 📁 Project Structure
+
+```text
+chrome-dino-rl/
+├── dino_logs/                         # TensorBoard training logs and reward metrics
+├── dino_super_checkpoints/            # Saved model checkpoints across training milestones
+├── Chrome_Dino_Player_with_RL.ipynb   # Complete training notebook, environment & visual reels generator
+├── play_chrome_dino.py                # Real-time Playwright bridge to control live chrome://dino
+├── dino_1M_superhuman.zip             # Trained PPO agent policy weights (1M steps)
+├── dino_learning_curves.png           # 1,000,000 step training curves & reward performance chart.
+├── dino_ghost_royale.gif              # Demo GIF: 50-Dino Ghost Battle Royale
+├── dino_learning progress.gif         # Demo GIF: Generational visual progression
+├── dino_50_ghost_battle_royale.mp4    # Full-resolution 50-agent battle royale video
+├── dino_learning_progression_reel.mp4 # Video showcase of agent evolution (0k to 1M steps)
+├── dino_solo_intermediate_run.mp4     # Solo evaluation run (400k Intermediate checkpoint)
+├── dino_solo_advanced_run.mp4         # Solo evaluation run (600k Advanced checkpoint)
+├── dino_solo_superhuman_run.mp4       # Solo evaluation run (1M Super human checkpoint)
+├── dino_solo_full_until_end.mp4       # Extended uncut solo gameplay run (1M Superhuman checkpoint)
+├── LICENSE                            # MIT License
+└── README.md                          # Project documentation and quickstart guide
+
+---
+
 
 ## 📜 License
 Released under the MIT License. Feel free to fork, experiment, and benchmark your own RL agents!
