@@ -1,4 +1,4 @@
-# 🦖 Superhuman Chrome Dino AI — Deep Reinforcement Learning (PPO) + Live Browser Bridge
+# Superhuman Chrome Dino AI — Deep Reinforcement Learning (PPO) + Live Browser Bridge
 
 ![Learning Progression](dino_learning%20progress.gif)
 
@@ -6,7 +6,7 @@ An end-to-end **Deep Reinforcement Learning** project that trains an autonomous 
 
 ---
 
-## ✨ Project Highlights
+## Highlights
 
 - **Custom 60 FPS Gymnasium Environment (`SuperDinoEnv`)**: Built from scratch in Python/Pygame with authentic pixel-art sprites, tight hitbox physics, variable obstacle clusters, and low/high flying Pterodactyls.
 - **12-Feature Engineered State Space with Time-To-Impact (TTI)**: Instead of slow raw-pixel CNN processing, the agent observes a compact 12-dimensional telemetry vector with **2-obstacle lookahead** and normalized Time-To-Impact (TTI), enabling **~5,000+ FPS training throughput** on CPU across 16 parallel environments.
@@ -16,7 +16,7 @@ An end-to-end **Deep Reinforcement Learning** project that trains an autonomous 
 
 ---
 
-## 🎥 Visual Demos
+## Demos
 
 ### 1. 50-Dino Ghost Battle Royale
 Watch 50 simultaneous AI episodes race side-by-side as the **1M Superhuman** agent weaves through high-speed cacti clusters and low-flying Pterodactyls:
@@ -28,7 +28,7 @@ Watch 50 simultaneous AI episodes race side-by-side as the **1M Superhuman** age
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. State Space (12-Feature Vector with 2-Obstacle Lookahead)
 At every frame, the MLP policy receives a normalized 12-feature vector:
@@ -65,7 +65,7 @@ At every frame, the MLP policy receives a normalized 12-feature vector:
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ### 1. Clone the Repository & Install Dependencies
 ```bash
@@ -85,7 +85,7 @@ python play_chrome_dino.py
 Open [`Chrome_Dino_Player_with_RL.ipynb`](Chrome_Dino_Player_with_RL.ipynb) in Google Colab or Jupyter Notebook to train all 5 generational checkpoints and render the MP4/GIF visual reels.
 
 ---
-## 📁 Project Structure
+## Structure
 
 ```text
 chrome-dino-rl/
@@ -109,5 +109,5 @@ chrome-dino-rl/
 ---
 
 
-## 📜 License
+## License
 Released under the MIT License. Feel free to fork, experiment, and benchmark your own RL agents!
