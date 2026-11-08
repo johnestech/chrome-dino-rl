@@ -69,7 +69,7 @@ At every frame, the MLP policy receives a normalized 12-feature vector:
 
 ### 1. Clone the Repository & Install Dependencies
 ```bash
-git clone https://github.com/<your-username>/chrome-dino-rl.git
+git clone https://github.com/johnestech/chrome-dino-rl.git
 cd chrome-dino-rl
 pip install stable-baselines3[extra] gymnasium numpy playwright pygame
 playwright install chromium
