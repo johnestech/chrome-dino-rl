@@ -1,4 +1,4 @@
-# Training an AI Model to Play Chrome Dino using Deep Reinforcement Learning (PPO) + Live Browser Bridge
+# Trained AI Agent to Play Chrome Dino using Deep Reinforcement Learning (PPO) + Live Browser Bridge
 
 ![Learning Progression](dino_learning%20progress.gif)
 
